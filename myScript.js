@@ -21,6 +21,9 @@ let food_coord = {
 function myGame(){
     ctx.drawImage(myBackground, 0, 0);
     ctx.drawImage(myFood, food_coord.x, food_coord.y);
+
+    ctx.fillStyle = "rgba(109, 16, 216, 1)";
+    ctx.fillRect(9*BOX, 10*BOX, BOX, BOX);
 }
 
 let game = setInterval(myGame, 100);
