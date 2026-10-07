@@ -14,8 +14,8 @@ let myFood = new Image();
 myFood.src = "carrot.png";
 
 let food_coord = {
-    x: BOX*Math.floor(17*Math.random()),
-    y: BOX*Math.floor(17*Math.random())
+    x: BOX*(Math.floor(17*Math.random()) + 1),
+    y: BOX*(Math.floor(15*Math.random()) + 3)
 }
 
 function myGame(){
